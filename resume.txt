@@ -1,0 +1,27 @@
+TESTING 
+Trata de probar un resultado esperado con el resultado de nuestro código.
+No hace falta hacer test manual siempre, para eso existe el automated test, donde cada vez que modificas tu código, este se vuelve a ejecutar para comprobar que no se ha "roto" el código
+Hay muchas ventajas sobre aplicar testing a tu código, por ejemplo:
+1. Da un error si "rompes" tu código
+2. Ahorras tiempo
+3. Te hace pensar sobre posibles bugs y errores
+4. Es más fácil de añadirlo en un flujo de trabajo
+5. Rompe dependencias complejas
+6. Mejora tu código
+
+Diferentes tipos de Tests:
+ 
+Unit testing: 
+Se hace test sobre las unidades minimas de código (funciones). 
+
+Integration testing
+Se hace test sobre funciones que llaman a otras (dependencias), y se comprueban que estan trabajando correctamente entre ellas.
+
+E2E Test
+Se hace test sobre el DOM, también se conoce como User Interface Test. Simula la interacción del usuario.
+
+Jest for Unit and Integration Test and Puppeter for E2E Test
+npm install --save-dev jest
+npm install --save-dev puppetee
+
+TDD trata de crear primero el test y, a partir de ahí, crear el código.
